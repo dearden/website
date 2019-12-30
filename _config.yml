@@ -18,21 +18,71 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Edward Dearden
+name: Edward Dearden
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to the website of Edward Dearden - nonsense human.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: eddearden
+github_username:  dearden
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
+  
+paginate: 5
+
+locale: "en-GB"
+
+teaser: /assets/images/art.png
+logo: /assets/images/art.png
+
+masthead_title: "The Personal Site of Edward Dearden"
+
+search: true
+
+include: ["_pages"]
+
+author:
+  name     : "Edward Dearden"
+  avatar   : "/assets/images/art.png"
+  bio      : "Hello, I am a nonsense man just trying to get by."
+  location : "Lancashire, UK" 
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
+comments:
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: 5
+    colorscheme: "dark"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
