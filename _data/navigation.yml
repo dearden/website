@@ -1,0 +1,36 @@
+# main links
+main:
+  - title: "About"
+    url: /about
+  - title: "Research"
+    url: /research
+  - title: "Research Blog"
+    url: /research-blog
+  - title: "CV"
+    url: /cv
+  - title: "Non-Research"
+    url: /non-research
+  - title: "Blog by Category"
+    url: /categories
+
+
+research:
+  - title: "About"
+    url: /about
+  - title: "Research"
+    url: /research
+  - title: "Blog"
+    url: /research-blog
+  - title: "CV"
+    url: /cv
+
+
+non-research:
+  - title: "About"
+    url: /about
+  - title: "Writing"
+    url: /personal-blog
+  - title: "Photography"
+    url: /photos
+  - title: "Art"
+    url: /art

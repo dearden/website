@@ -2,7 +2,7 @@
 layout: single
 title:  "\"Star Wars: The Rise of Skywalker\" - Review"
 date:   2019-12-28 19:00:00 +0000
-categories: jekyll update
+categories: personal films
 ---
 
 Star Wars was entertaining but a bit poo.
