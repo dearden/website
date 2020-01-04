@@ -58,6 +58,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/EdDearden/"
+    - label: "Contact"
+      icon: "fas fa-fw fa-link"
+      url: "http://www.research.lancs.ac.uk/portal/en/people/edward-dearden(6a07b9df-a13f-483c-9ad7-bc5eb66cf6d7).html"
 
 # twitter
 twitter:
@@ -212,8 +215,9 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
-      related: true
+      related: false
+      sidebar:
+        nav: "research-blog"
   # _pages
   - scope:
       path: ""

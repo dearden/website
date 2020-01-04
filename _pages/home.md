@@ -3,7 +3,7 @@ title: "Edward Dearden"
 layout: splash
 permalink: /
 redirect_from:
-  - /about/
+  - /home/
 date: 2019-12-30T00:00:00-00:00
 header:
   overlay_color: "#000"

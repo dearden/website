@@ -34,3 +34,17 @@ non-research:
     url: /photos
   - title: "Art"
     url: /art
+
+
+research-blog:
+  - title: "Research"
+    url: /research
+  - title: "Blog"
+    url: /research-blog
+
+
+personal-blog:
+  - title: "Blog"
+    url: /personal-blog
+  - title: "Other Stuff"
+    url: /non-academic
