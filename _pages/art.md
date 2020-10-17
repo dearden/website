@@ -37,10 +37,18 @@ gallery:
 I enjoy doodling and making stupid pictures.
 Below is a small selection.
 
-{% include gallery id="gallery" class="full" %}
+{% include gallery id="gallery" layout="" %}
+<!-- 
+{% for image in site.static_files %}
+    {% if image.path contains 'images/photos' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %} -->
+
+<!-- {% include gallery id="gallery" class="full" %}
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/photos' %}
         <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endif %}
-{% endfor %}
+{% endfor %} -->

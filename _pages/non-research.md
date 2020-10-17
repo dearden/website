@@ -11,27 +11,21 @@ header:
     - label: "Learn More"
       url: "/about/"
   caption: "Photo credit: Edward Dearden"
-excerpt: "What I do that's not work"
+excerpt: "<br/>What I do that's not work"
 feature_row:
-  - image_path: assets/images/computer.jpg
-    image_caption: "Image courtesy of me"
+  - image_path: assets/images/Writing.jpg
     alt: "placeholder image 1"
-    title: "Writing"
-    excerpt: "Here's some stuff I've written."
+    excerpt: "<br/>Here's some stuff I've written."
     url: "/personal-blog"
     btn_label: "Writing"
     btn_class: "btn--primary"
-  - image_path: assets/images/blog.jpg
-    image_caption: "Image courtesy of me"
+  - image_path: assets/images/Photos.jpg
     alt: "placeholder image 2"
-    title: "Photos"
-    excerpt: "I also enjoy engaging in light photography."
+    excerpt: "<br/>I also enjoy engaging in light photography."
     url: "/photos"
     btn_label: "Photo Gallery"
     btn_class: "btn--primary"
-  - image_path: assets/images/fire.jpg
-    image_caption: "Image courtesy of me"
-    title: "Drawings, etc"
+  - image_path: assets/images/Drawings.jpg
     excerpt: "I also like to doodle."
     url: "/art"
     btn_label: "Picture Gallery"

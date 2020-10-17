@@ -8,12 +8,12 @@ date: 2019-12-30T00:00:00-00:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/yellow_leaves.jpg
+  overlay_image: /assets/images/inacave_wide.jpg
   actions:
     - label: "Learn More"
       url: "/about/"
   caption: "Photo credit: Edward Dearden"
-excerpt: "PhD student and Nonsense human"
+excerpt: "Natural Language Processing Researcher"
 intro:
   - excerpt: |
       My Name is Ed.
@@ -21,26 +21,20 @@ intro:
       Aside from research, I do a bunch of other things you may find hidden away on this site.
       Have a look around and enjoy your stay!
 feature_row:
-  - image_path: assets/images/computer.jpg
-    image_caption: "Image courtesy of me"
+  - image_path: assets/images/Research.jpg
     alt: "placeholder image 1"
-    title: "Research"
-    excerpt: "I do research in Natural Language Processing."
+    excerpt: "<br/>I do research in Natural Language Processing."
     url: "/research"
     btn_label: "Research"
     btn_class: "btn--primary"
-  - image_path: assets/images/blog.jpg
-    image_caption: "Image courtesy of me"
+  - image_path: assets/images/Blog.jpg
     alt: "placeholder image 2"
-    title: "Blog"
-    excerpt: "Read my research blog."
+    excerpt: "<br/>Read my research blog."
     url: "/research-blog"
     btn_label: "Check out my Blog"
     btn_class: "btn--primary"
-  - image_path: assets/images/fire.jpg
-    image_caption: "Image courtesy of me"
-    title: "Everything Else"
-    excerpt: "Here's some stuff I've done that's not research"
+  - image_path: assets/images/EverythingElse.jpg
+    excerpt: "<br/>Here's some stuff I've done that's not research"
     url: "/non-research"
     btn_label: "Nonsense"
     btn_class: "btn--primary"
